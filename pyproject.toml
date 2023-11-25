@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "adversarialmlevaluation"
+version = "0.1.0"
+description = ""
+authors = ["SimpleNiQue <simplenick01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+adversarial-robustness-toolbox = "^1.16.0"
+fastapi = "^0.104.1"
+aiofiles = "^23.2.1"
+uvicorn = "^0.24.0.post1"
+tensorflow = "^2.15.0"
+pydantic = "^2.5.1"
+numpy = "^1.26.2"
+python-multipart = "^0.0.6"
+matplotlib = "^3.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
